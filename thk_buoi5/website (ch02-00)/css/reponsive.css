@@ -1,0 +1,17 @@
+@media (max-width: 960px) {
+    * {
+        color: coral;
+    }
+}
+
+@media (max-width: 760px) {
+    * {
+        color: aqua;
+    }
+}
+
+@media (max-width: 640px) {
+    * {
+        color: crimson;
+    }
+}

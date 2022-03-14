@@ -29,7 +29,7 @@ input[type='submit'][class='button']:hover {
 
 #header nav > ul {
     border-radius: 20px; 
-    border: #ccc solid 1px;
+    /* border: #ccc solid 1px; */
 }
 
 .showcase {
@@ -37,7 +37,7 @@ input[type='submit'][class='button']:hover {
 }
 
 #header nav > ul > li {
-    background:white;
+    /* background:white; */
 }
 
 .showcase  {
@@ -53,7 +53,9 @@ input[type='submit'][class='button']:hover {
 }
 
 #header nav {
-    margin-top: 2em;
+    /* margin-top: 2em; */
+    background: powderblue;
+    padding: 20px;
 }
 
 #content {
@@ -127,6 +129,7 @@ blockquote cite {
 .navigation ul {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .products {
@@ -138,11 +141,24 @@ blockquote cite {
     position: absolute;
     background: powderblue;
     left: -20px;
+    border-radius: 10px;
     padding: 0 20px;
 }
 
+
 .products-item li {
     margin: 20px 0;
+}
+
+.navigation li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #191919;
+    letter-spacing: 2px;
+}
+
+.navigation li a:hover {
+    color: salmon;
 }
 
 .clothes ul,
@@ -152,6 +168,7 @@ blockquote cite {
     background: plum;
     padding: 0 20px;
     display: none;
+    border-radius: 10px;
 }
 
 .clothes:hover ul,
